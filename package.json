@@ -26,9 +26,10 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "lint": "tslint -c tslint.json src/**/*.{ts,tsx}",
-    "lint:styles": "stylelint \"**/*.scss\"",
-    "lint-fix": "tslint src --quiet --fix"
+    "tslint": "tslint --project tsconfig.json -c tslint.json src/**/*.{ts,tsx} -h",
+    "lint-fix": "tslint src --quiet --fix",
+    "stylelint:styles": "stylelint \"**/*.scss\"",
+    "prepare": "husky install"
   },
   "browserslist": {
     "production": [
@@ -56,19 +57,16 @@
     "typescript": "^4.6.4"
   },
   "lint-staged": {
-    "*.{js,ts,tsx,html,json}": [
-      "prettier --write",
-      "git add"
-    ],
-    "*.{scss,css}": [
+    "**/*.{scss,css}": [
       "stylelint",
       "prettier --write",
       "git add"
+    ],
+    
+    "**/*.{ts,tsx}": [
+      "tslint",
+      "prettier --write",
+      "git add"
     ]
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm run lint && lint-staged"
-    }
   }
 }
