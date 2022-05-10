@@ -62,7 +62,6 @@
       "prettier --write",
       "git add"
     ],
-    
     "**/*.{ts,tsx}": [
       "tslint",
       "prettier --write",
