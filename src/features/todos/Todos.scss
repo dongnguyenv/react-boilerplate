@@ -4,4 +4,13 @@
   height: 100%;
   margin: 0 auto;
   width: 375px;
+
+  .todo-item {
+    border: solid 1px rgb(32, 22, 22);
+
+    span {
+      padding: 1rem;
+      width: 200px;
+    }
+  }
 }

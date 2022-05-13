@@ -12,6 +12,9 @@
         "prettier": true,
         "interface-name": false,
         "react-hooks-nesting": "error",
-        "indent": [true, "spaces", 2]
+        "indent": {
+            "options": "spaces"
+        },
+        "no-shadowed-variable": true
     }
 }

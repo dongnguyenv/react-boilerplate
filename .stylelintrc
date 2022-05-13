@@ -3,6 +3,7 @@
   "rules": {
     "indentation": 2,
     "color-hex-case": "lower",
-    "color-hex-length": "long"
+    "color-hex-length": "long",
+    "max-nesting-depth": null
   }
 }
