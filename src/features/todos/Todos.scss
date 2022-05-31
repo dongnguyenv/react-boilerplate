@@ -1,16 +1,12 @@
 .todo-wrapper {
-  background-color: #ffffff;
-  border: #383131 solid 1px;
-  height: 100%;
-  margin: 0 auto;
-  width: 375px;
+    color: rgb(0, 0, 0);
 
-  .todo-item {
-    border: solid 1px rgb(32, 22, 22);
+    .todo-item {
+        border: solid 1px rgb(32, 22, 22);
 
-    span {
-      padding: 1rem;
-      width: 200px;
+        span {
+            padding: 1rem;
+            width: 200px;
+        }
     }
-  }
 }

@@ -12,6 +12,9 @@
         "prettier": true,
         "interface-name": false,
         "react-hooks-nesting": "error",
+        "member-ordering": true,
+        "import-spacing": true,
+        "semicolon": [true, "always", "ignore-bound-class-methods"],
         "indent": {
             "options": "spaces"
         },

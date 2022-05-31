@@ -1,0 +1,30 @@
+.layout-wrapper {
+    width: 100%;
+
+    .page-header {
+        background-color: #bd9d9dc1;
+        display: flex;
+        flex-direction: row;
+        height: 64px;
+        width: 100%;
+    }
+
+    .layout-container {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+
+        .side-menu {
+            display: flex;
+            min-height: 100vh;
+            min-width: 300px;
+        }
+
+        .page-container {
+            background-color: #f2f2f2;
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+        }
+    }
+}
