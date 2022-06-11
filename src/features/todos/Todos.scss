@@ -1,0 +1,12 @@
+.todo-wrapper {
+    color: rgb(0, 0, 0);
+
+    .todo-item {
+        border: solid 1px rgb(32, 22, 22);
+
+        span {
+            padding: 1rem;
+            width: 200px;
+        }
+    }
+}

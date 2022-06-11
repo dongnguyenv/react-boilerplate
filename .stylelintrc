@@ -1,8 +1,9 @@
 {
   "extends": "stylelint-config-sass-guidelines",
   "rules": {
-    "indentation": 2,
+    "indentation": 4,
     "color-hex-case": "lower",
-    "color-hex-length": "long"
+    "color-hex-length": "long",
+    "max-nesting-depth": null
   }
 }

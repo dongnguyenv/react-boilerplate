@@ -12,13 +12,18 @@
     "@types/react": "^18.0.8",
     "@types/react-dom": "^18.0.3",
     "@types/react-redux": "^7.1.24",
-    "axios": "^0.27.2",
+    "axios": "^0.26.1",
+    "axios-observable": "^1.4.0",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
+    "react-hook-form": "^7.31.1",
     "react-redux": "^8.0.1",
+    "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
+    "rxjs": "^7.5.5",
     "sass": "^1.51.0",
     "sass-reset": "^1.0.4",
+    "uuid": "^8.3.2",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -44,6 +49,7 @@
     ]
   },
   "devDependencies": {
+    "@types/uuid": "^8.3.4",
     "husky": "^7.0.4",
     "lint-staged": "^12.4.1",
     "prettier": "^2.6.2",
@@ -62,7 +68,6 @@
       "prettier --write",
       "git add"
     ],
-    
     "**/*.{ts,tsx}": [
       "tslint",
       "prettier --write",
